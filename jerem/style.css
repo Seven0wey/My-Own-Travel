@@ -1,0 +1,82 @@
+
+
+#logo-my-own-travel {
+width: 14vw;
+border-radius: 10%;
+opacity:0.9;
+margin: 10vh 43vw;
+}
+
+
+
+#banniere{
+	background-image:url("images/fond.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+#gauche
+{
+    position:relative;
+    width:20vw;
+    float: left;
+    margin-left: -14vw
+}
+#droite
+{
+    position:relative;
+    width:60vw;
+    float: right;
+  	text-align: justify;
+  	margin-top: 7vw;
+  }
+
+
+
+body{
+  height: 930px;
+}
+
+
+#footer_page
+{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  bottom: 0px;
+  margin: 0px;
+  position: fixed;
+  opacity: 0.5;
+  background-color: #D8D8D8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#text_footer>h3
+{
+  font-size: 1em;
+  color: black;
+}
+
+.rs_footer
+{
+  position: absolute;
+  justify-content: space-around;
+}
+
+
+#footer_reseaux
+{
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  font-size: 1.5em;
+}
+
+#page_title_foot>h3
+{
+  color: black;
+  font-size: 1em;
+}

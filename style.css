@@ -1,0 +1,137 @@
+body
+{
+	margin: 0;
+}
+
+#container_accueil
+{
+	width: 100%;
+}
+
+
+#titre_accueil
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 20vh;
+	margin-bottom: 0.5rem;
+	justify-content: center;
+	align-items: center;
+	background-color: #848484;
+	color: white;
+	font-size: 3em;
+	font-weight: lighter;
+}
+
+#accueil_cdl
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: calc(100vh - 20vh - 20vh - 1rem);
+	justify-content: space-between;
+	background-image: url("images/la_vague.jpg");
+	background-repeat: no-repeat;
+}
+
+.language
+{
+	margin-bottom: 1%;
+	margin-top: 1%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#foot_accueil
+{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	width: 100%;
+	height: 20vh;
+	margin-top: 0.5rem;
+	margin-bottom: 0%;
+	background-color: #848484;
+	margin-bottom: 0.5rem; 
+}
+
+
+#follow_accueil
+{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 1%;
+	font-family: 'Pacifico', cursive;
+	font-weight: lighter;
+	font-size: 1.5em
+}
+
+#rs_foot
+{
+	flex:1.05;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#fb, #insta, #twit
+{
+	font-size: 3.2em;
+	color: white;
+}
+
+#fb:hover, #insta:hover, #twit:hover
+{
+	color: #FA5858;
+}
+
+#logo_accueil
+{
+	position: absolute;
+	top: 7%;
+	right: 37%;
+	box-shadow: 4px 4px 0px black
+}
+
+.abt_visible
+{
+	opacity: 0.3;
+}
+
+#choix_french:hover ~ #choix_english
+{
+	opacity: 0.3;
+}
+
+/* Passage vers la nav *//* Passage vers la nav *//* Passage vers la nav *//* Passage vers la nav */
+
+#box_button_nav
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 80px;
+	border: 1px solid black;
+	background-attachment: fixed;
+}
+
+.button_nav
+{
+	border: 1px solid black;
+	margin-left: 40px;
+}
+
+/* Passage vers a propos de nous! *//* Passage vers a propos de nous! *//* Passage vers a propos de nous! */
+
+#container_apdv
+{
+	width: 100%;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	border: 2px solid red;
+}

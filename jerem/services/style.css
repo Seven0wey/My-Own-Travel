@@ -1,0 +1,178 @@
+#logo-my-own-travel {
+width: 14vw;
+border-radius: 10%;
+opacity:0.9;
+margin: 10vh 43vw;
+}
+
+
+
+#banniere{
+  background-image:url("images/fond.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#gauche>img
+{
+  width: 20vw;
+
+}
+
+#gauche
+{
+    position:relative;
+    width:20vw;
+    float: left;
+    margin-left: -12vw
+}
+#droite
+{
+    position:relative;
+    width:60vw;
+    float: right;
+    text-align: justify;
+    margin-top: 3vw;
+  }
+
+
+
+body{
+  height: 2500px;
+}
+
+
+#footer_page
+{
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  bottom: 0px;
+  margin: 0px;
+  position: fixed;
+  opacity: 0.5;
+  background-color: #D8D8D8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#text_footer>h3
+{
+  font-size: 1em;
+  color: black;
+}
+
+.rs_footer
+{
+  position: absolute;
+  justify-content: space-around;
+}
+
+
+#footer_reseaux
+{
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+  font-size: 1.5em;
+}
+
+#page_title_foot>h3
+{
+  color: black;
+  font-size: 1em;
+}
+
+#avion_azerty
+{
+  border-radius: 50%;
+  margin-top: 1vh;
+}
+
+#transfert_azerty
+{
+  margin-top: 39vh;
+  border-radius: 50%;
+  margin-left: -3vw;
+}
+
+#droite2
+{
+    position:relative;
+    width:60vw;
+    float: right;
+    text-align: justify;
+    margin-top: 10vw;
+  }
+
+  #car_azerty
+{
+  margin-top: 52vh;
+  border-radius: 50%;
+  margin-left: -5vw;
+
+}
+
+#droite3
+{
+    position:relative;
+    width:60vw;
+    float: right;
+    text-align: justify;
+    margin-top: 9Vw;
+  }
+
+
+#visite_azerty
+{
+  margin-top: 52vh;
+  border-radius: 50%;
+  margin-left: -7vw;
+
+}
+
+#droite4
+{
+    position:relative;
+    width:60vw;
+    float: right;
+    text-align: justify;
+    margin-top: 9Vw;
+  }
+
+  #book_azerty
+{
+  margin-top: 52vh;
+  border-radius: 50%;
+  margin-left: -10vw;
+
+}
+
+#droite5
+{
+    position:relative;
+    width:60vw;
+    float: right;
+    text-align: justify;
+    margin-top: 9Vw;
+  }
+
+
+#food_azerty
+{
+  margin-top: 16vh;
+  border-radius: 50%;
+  margin-left: -12vw;
+
+}
+
+#droite6
+{
+    position:relative;
+    width:60vw;
+    float: right;
+    text-align: justify;
+    margin-top: -11Vw;
+  }
